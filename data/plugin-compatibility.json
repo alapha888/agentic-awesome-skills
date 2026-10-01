@@ -38258,8 +38258,46 @@
       "runtime_files": []
     },
     {
+      "id": "repo-foundation",
+      "path": "skills/repo-foundation",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "repo-maintainer",
       "path": "skills/repo-maintainer",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "repo-native-refactor",
+      "path": "skills/repo-native-refactor",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -49937,10 +49975,10 @@
     }
   ],
   "summary": {
-    "total_skills": 2602,
+    "total_skills": 2604,
     "supported": {
-      "codex": 2515,
-      "claude": 2540
+      "codex": 2517,
+      "claude": 2542
     },
     "blocked": {
       "codex": 87,

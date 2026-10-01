@@ -2,7 +2,7 @@
 
 Generated at: 2026-09-30T03:52:46.000Z
 
-Total skills: 2602
+Total skills: 2604
 
 ## agent-behavior (5)
 
@@ -1315,7 +1315,7 @@ Total skills: 2602
 | `skill-porter` | Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity. | critical | Pranav-Nexus/antigravity-skill-porter | antigravity, claude, skills, migration, agent | antigravity, claude, skills, migration, agent, skill, porter, preview, conservative, name, translations, copy |
 | `tokenwise` | Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper t... | critical | CodeShuX/tokenwise | model-routing, token-optimization, cost-reduction, anthropic, haiku, sonnet, opus, claude-code, ab-testing, measurement | model-routing, token-optimization, cost-reduction, anthropic, haiku, sonnet, opus, claude-code, ab-testing, measurement, tokenwise, driven |
 
-## development (214)
+## development (216)
 
 | Skill | Description | Risk | Source | Tags | Triggers |
 | --- | --- | --- | --- | --- | --- |
@@ -1500,6 +1500,8 @@ Total skills: 2602
 | `python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites... | safe | community | python | python, testing, pytest, fixtures, mocking, test, driven, development, writing, tests, setting, up |
 | `rayden-code` | Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns | safe | https://github.com/playbookTV/rayden-ui-design-skill | react, tailwind, design-system, ui, components, vibe-coding, rayden, rayna-ui, code-generation | react, tailwind, design-system, ui, components, vibe-coding, rayden, rayna-ui, code-generation, code, generate, correct |
 | `re-create` | Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible. | critical | community | re, create | re, create, completely, delete, rewrite, file, module, scratch, structural, rot, makes, patching |
+| `repo-foundation` | Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts. | critical | Natchannnn/repository-engineering-skills | repository-engineering, feature-development, contract-migration, continuity | repository-engineering, feature-development, contract-migration, continuity, repo, foundation, features, fixes, modules, contract, migrations, resumed |
+| `repo-native-refactor` | Review diffs without editing, or perform evidence-based cleanup while preserving authorized behavior, public contracts, and domain ownership. | critical | Natchannnn/repository-engineering-skills | repository-engineering, code-review, refactoring, public-contracts | repository-engineering, code-review, refactoring, public-contracts, repo, native, refactor, review, diffs, without, editing, perform |
 | `resolving-merge-conflicts` | Use when you need to resolve an in-progress git merge/rebase conflict. | critical | mattpocock/skills | resolving, merge, conflicts | resolving, merge, conflicts, resolve, progress, git, rebase, conflict |
 | `robius-app-architecture` | CRITICAL: Use for Robius app architecture patterns. Triggers on: Tokio, async, submit_async_request, 异步, 架构, SignalToUI, Cx::post_action, worker task, app st... | critical | community | robius, app, architecture | robius, app, architecture, critical, triggers, tokio, async, submit, request, signaltoui, cx, post |
 | `robius-event-action` | CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widge... | critical | community | robius, event, action | robius, event, action, critical, triggers, custom, matchevent, post, cx, widget, handle, actions |
