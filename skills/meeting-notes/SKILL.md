@@ -65,6 +65,13 @@ Output:
 - Pricing strategy: no decision reached; the action-item owner will book a dedicated session with Finance.
 ```
 
+## Limitations
+
+- Works only from notes the user supplies. It cannot join the meeting, recover audio, or resolve a name the notes never recorded.
+- Missing owners and deadlines are marked `[unassigned]` / `[TBD]`, never invented; the minutes are therefore only as complete as the raw notes.
+- It records decisions, not consensus. If the notes only say something was "discussed", the skill reports that as an open question instead of a decision.
+- Summaries bias toward brevity (≤1/3 of the raw notes), so fine-grained discussion detail is intentionally dropped.
+
 ## Anti-patterns
 
 - ❌ Chronological minutes: replaying two hours of discussion in order is the same as not organizing it.

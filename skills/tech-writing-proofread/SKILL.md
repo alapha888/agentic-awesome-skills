@@ -63,6 +63,13 @@ Output checklist:
 Statistics: 5 items — style 2, terminology 1, grammar 1, proper noun 1.
 ```
 
+## Limitations
+
+- Proofreads; it does not rewrite. Voice, structure and argument are preserved, so a document that is poorly argued stays poorly argued after review.
+- The technical claims themselves are out of scope: an uncertain statement is left intact rather than silently "corrected" into a different fact.
+- Terminology consistency is judged against the document's own dominant usage, not against an external glossary unless the user supplies one.
+- Only English proofreading is claimed. Other languages, translation quality and localisation review are outside this skill.
+
 ## Anti-patterns
 
 - ❌ Turning proofreading into rewriting: tearing a paragraph down so the author's voice and structure are lost.

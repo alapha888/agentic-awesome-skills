@@ -61,6 +61,13 @@ Another example (bug fixes must state trigger conditions):
 git commit -m "fix: keep order-list filters across pagination" -m "Trigger: filter first, then turn the page. Cause: page turns dropped the query params."
 ```
 
+## Limitations
+
+- Only writes the message. Staging, splitting, committing and pushing remain the user's decision, and the skill never runs `git commit` on its own.
+- The 50-character subject and imperative-mood conventions are the common default; repositories with their own commit convention (Gitmoji, Jira prefixes, project overrides) take precedence over this skill.
+- It reads the staged diff, so it cannot describe intent that the diff alone does not show. When the "why" is not inferable, the skill asks instead of inventing it.
+- Generated or vendored changes (lockfiles, minified output) are summarized collectively rather than listed line by line.
+
 ## Anti-patterns
 
 - ❌ Writing a message for an empty staging area: no `git diff --cached`, no commit message.

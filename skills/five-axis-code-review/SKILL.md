@@ -62,6 +62,13 @@ Example review comments:
 [Should fix][Readability] order.py:92 magic number 86400 → name it SECONDS_PER_DAY
 ```
 
+## Limitations
+
+- Covers five review axes, not every quality dimension. Domain-specific correctness (financial rounding, protocol conformance, accessibility conformance) still needs its own specialist review.
+- The five axes are heuristics for a human reviewer. A clean pass on the checklist does not prove the change is correct, secure, or performant.
+- Security review here is a reading checklist, not a scanner. Static analysis, dependency audit and secret scanning run as separate tools.
+- The skill reviews diffs; it cannot establish that requirements were met, and an empty findings list only means no finding was evidenced in the reviewed scope.
+
 ## Anti-patterns
 
 - ❌ Drive-by LGTM: approving before reading the whole diff — the review is theater.

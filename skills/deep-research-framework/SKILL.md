@@ -65,6 +65,13 @@ Produce a report whose "conclusions are trustworthy, process is traceable, and t
 - Invalidation conditions: if … changes, conclusion X in this report needs reassessment.
 ```
 
+## Limitations
+
+- Source quality is the ceiling of the report. Declared "primary sources" cannot be verified for authenticity by this skill; it only enforces the tiering and cross-verification discipline.
+- Independent-source requirements are a judgment call. Two outlets quoting the same wire story or press release count as one origin, and the skill cannot detect shared-origin syndication automatically.
+- Web access is required for source-backed research. Without search or fetch tools the skill stops rather than writing a report from memory, or marks every external fact `[UNVERIFIED]` and warns on the cover.
+- Recency claims expire. A dated fact ("as of Sep 2026") is only valid until the underlying source changes; the skill does not re-verify older reports.
+
 ## Anti-patterns
 
 - ❌ Single-source verdicts: one social-media post becomes "research shows".
