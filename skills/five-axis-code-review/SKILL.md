@@ -1,5 +1,5 @@
 ---
-name: code-review-checklist
+name: five-axis-code-review
 description: "Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request."
 category: development
 risk: safe
