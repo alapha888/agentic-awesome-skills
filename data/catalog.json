@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T03:52:46.000Z",
-  "total": 2604,
+  "generatedAt": "2026-10-04T23:13:54.000Z",
+  "total": 2652,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -223,6 +223,99 @@
         "interactive"
       ],
       "path": "skills/3d-web-experience/SKILL.md"
+    },
+    {
+      "id": "aas-compose-stack",
+      "canonical_id": "aas-compose-stack",
+      "name": "aas-compose-stack",
+      "description": "Preserve the coding agent's explicit AAS skill selection as a validated stack and optional evidence.",
+      "category": "agent-tooling",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review"
+      ],
+      "triggers": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review",
+        "compose",
+        "stack",
+        "preserve",
+        "coding",
+        "agent",
+        "explicit",
+        "skill",
+        "selection"
+      ],
+      "path": "skills/aas-compose-stack/SKILL.md"
+    },
+    {
+      "id": "aas-discover",
+      "canonical_id": "aas-discover",
+      "name": "aas-discover",
+      "description": "Discover AAS skills for an explicit task and compare their complete instructions without installing them.",
+      "category": "agent-tooling",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review"
+      ],
+      "triggers": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review",
+        "discover",
+        "explicit",
+        "task",
+        "compare",
+        "complete",
+        "instructions",
+        "without",
+        "installing"
+      ],
+      "path": "skills/aas-discover/SKILL.md"
+    },
+    {
+      "id": "aas-review-stack",
+      "canonical_id": "aas-review-stack",
+      "name": "aas-review-stack",
+      "description": "Review AAS stack manifests, preview plans and selection evidence in Workbench without applying changes.",
+      "category": "agent-tooling",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review"
+      ],
+      "triggers": [
+        "aas",
+        "skills",
+        "mcp",
+        "stack-review",
+        "review",
+        "stack",
+        "manifests",
+        "preview",
+        "plans",
+        "selection",
+        "evidence",
+        "workbench"
+      ],
+      "path": "skills/aas-review-stack/SKILL.md"
     },
     {
       "id": "ab-test-setup",
@@ -2255,6 +2348,41 @@
       "path": "skills/ai-agent-development/SKILL.md"
     },
     {
+      "id": "ai-agent-evaluation-benchmarking",
+      "canonical_id": "ai-agent-evaluation-benchmarking",
+      "name": "ai-agent-evaluation-benchmarking",
+      "description": "Autonomous AI agent benchmark evaluation register: task completion rates, planning accuracy, tool invocation precision, and cost benchmarks.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "ai",
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "llm",
+        "automation",
+        "quality"
+      ],
+      "triggers": [
+        "ai",
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "llm",
+        "automation",
+        "quality",
+        "agent",
+        "benchmarking",
+        "autonomous",
+        "benchmark",
+        "register"
+      ],
+      "path": "skills/ai-agent-evaluation-benchmarking/SKILL.md"
+    },
+    {
       "id": "ai-agent-security",
       "canonical_id": "ai-agent-security",
       "name": "ai-agent-security",
@@ -2286,6 +2414,41 @@
         "defense"
       ],
       "path": "skills/ai-agent-security/SKILL.md"
+    },
+    {
+      "id": "ai-agent-tool-routing",
+      "canonical_id": "ai-agent-tool-routing",
+      "name": "ai-agent-tool-routing",
+      "description": "Autonomous AI agent tool router register: schema registration, runtime parameter coercion, idempotency keys, and error recovery policies.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "ai",
+        "agents",
+        "tool-use",
+        "mcp",
+        "llm",
+        "automation",
+        "python"
+      ],
+      "triggers": [
+        "ai",
+        "agents",
+        "tool-use",
+        "mcp",
+        "llm",
+        "automation",
+        "python",
+        "agent",
+        "routing",
+        "autonomous",
+        "router",
+        "register"
+      ],
+      "path": "skills/ai-agent-tool-routing/SKILL.md"
     },
     {
       "id": "ai-agents-architect",
@@ -2332,6 +2495,40 @@
         "analyzer"
       ],
       "path": "skills/ai-analyzer/SKILL.md"
+    },
+    {
+      "id": "ai-code-generation-guardrails",
+      "canonical_id": "ai-code-generation-guardrails",
+      "name": "ai-code-generation-guardrails",
+      "description": "Autonomous AI code generation safety guardrail register: static AST analysis, forbidden import filters, and zero-day vulnerability checks.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "ai",
+        "security",
+        "guardrails",
+        "ast",
+        "code-quality",
+        "devsecops"
+      ],
+      "triggers": [
+        "ai",
+        "security",
+        "guardrails",
+        "ast",
+        "code-quality",
+        "devsecops",
+        "code",
+        "generation",
+        "autonomous",
+        "safety",
+        "guardrail",
+        "register"
+      ],
+      "path": "skills/ai-code-generation-guardrails/SKILL.md"
     },
     {
       "id": "ai-coding-agent-guardrails",
@@ -2848,6 +3045,40 @@
         "apart"
       ],
       "path": "skills/ai-product/SKILL.md"
+    },
+    {
+      "id": "ai-prompt-regression-testing",
+      "canonical_id": "ai-prompt-regression-testing",
+      "name": "ai-prompt-regression-testing",
+      "description": "Prompt engineering regression test matrix register: baseline outputs, semantic drift thresholds, judge evaluations, and golden dataset.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "ai",
+        "prompt-engineering",
+        "testing",
+        "evaluation",
+        "llm",
+        "benchmarking"
+      ],
+      "triggers": [
+        "ai",
+        "prompt-engineering",
+        "testing",
+        "evaluation",
+        "llm",
+        "benchmarking",
+        "prompt",
+        "regression",
+        "engineering",
+        "test",
+        "matrix",
+        "register"
+      ],
+      "path": "skills/ai-prompt-regression-testing/SKILL.md"
     },
     {
       "id": "ai-red-teaming",
@@ -7687,6 +7918,40 @@
         "interest"
       ],
       "path": "skills/axiom/SKILL.md"
+    },
+    {
+      "id": "axonx",
+      "canonical_id": "axonx",
+      "name": "axonx",
+      "description": "Develop AxonX research plugins and operate quantitative research tasks through CLI or MCP, inspecting execution status, logs, artifacts, and lineage.",
+      "category": "finance",
+      "risk": "critical",
+      "source": "https://github.com/FlowLLM-AI/AxonX/tree/862b90da9c49c3bdee4c2ab9ef896c415aee9f45/skills/axonx",
+      "source_type": "community",
+      "source_repo": "FlowLLM-AI/AxonX",
+      "license": "Apache-2.0",
+      "license_source": "https://github.com/FlowLLM-AI/AxonX/blob/862b90da9c49c3bdee4c2ab9ef896c415aee9f45/LICENSE",
+      "tags": [
+        "quantitative-research",
+        "mcp",
+        "backtesting",
+        "python"
+      ],
+      "triggers": [
+        "quantitative-research",
+        "mcp",
+        "backtesting",
+        "python",
+        "axonx",
+        "develop",
+        "research",
+        "plugins",
+        "operate",
+        "quantitative",
+        "tasks",
+        "through"
+      ],
+      "path": "skills/axonx/SKILL.md"
     },
     {
       "id": "azd-deployment",
@@ -13405,6 +13670,41 @@
       "path": "skills/browser-extension-builder/SKILL.md"
     },
     {
+      "id": "browser-extension-launch",
+      "canonical_id": "browser-extension-launch",
+      "name": "browser-extension-launch",
+      "description": "Builds, tests, packages, and prepares Chrome extensions for store launch from a plain-language idea; use for new extensions, fixes, releases, and submission recovery.",
+      "category": "development",
+      "risk": "critical",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "xiehuan123/browser-extension-launch",
+      "license": "MIT",
+      "license_source": "https://github.com/xiehuan123/browser-extension-launch/blob/main/LICENSE",
+      "tags": [
+        "browser-extension",
+        "chrome-extension",
+        "manifest-v3",
+        "testing",
+        "publishing"
+      ],
+      "triggers": [
+        "browser-extension",
+        "chrome-extension",
+        "manifest-v3",
+        "testing",
+        "publishing",
+        "browser",
+        "extension",
+        "launch",
+        "tests",
+        "packages",
+        "prepares",
+        "chrome"
+      ],
+      "path": "skills/browser-extension-launch/SKILL.md"
+    },
+    {
       "id": "browser-extension-reverse",
       "canonical_id": "browser-extension-reverse",
       "name": "browser-extension-reverse",
@@ -14186,6 +14486,42 @@
         "price"
       ],
       "path": "skills/buywhere-product-catalog/SKILL.md"
+    },
+    {
+      "id": "byagent",
+      "canonical_id": "byagent",
+      "name": "byagent",
+      "description": "Publish agent-written Markdown or HTML as a shareable link with the byagent CLI, then read readers' line comments back, edit, republish to the same link and resolve them.",
+      "category": "productivity",
+      "risk": "critical",
+      "source": "https://github.com/anup-a/agent-artifacts",
+      "source_type": "official",
+      "source_repo": "anup-a/agent-artifacts",
+      "license": "MIT",
+      "license_source": "https://github.com/anup-a/agent-artifacts/blob/main/LICENSE",
+      "tags": [
+        "publish",
+        "markdown",
+        "html",
+        "share",
+        "comments",
+        "review"
+      ],
+      "triggers": [
+        "publish",
+        "markdown",
+        "html",
+        "share",
+        "comments",
+        "review",
+        "byagent",
+        "agent",
+        "written",
+        "shareable",
+        "link",
+        "cli"
+      ],
+      "path": "skills/byagent/SKILL.md"
     },
     {
       "id": "c-pro",
@@ -16039,6 +16375,42 @@
       "path": "skills/cline-delegate/SKILL.md"
     },
     {
+      "id": "cline-pilot",
+      "canonical_id": "cline-pilot",
+      "name": "cline-pilot",
+      "description": "Proxy Cline CLI coding tasks: dispatch, monitor background runs via hard evidence, relay decision points in a fixed format, verify against a checklist, and learn per-tag preferences over time.",
+      "category": "agent-orchestration",
+      "risk": "critical",
+      "source": "https://github.com/gongdear/cline-pilot",
+      "source_type": "official",
+      "source_repo": "gongdear/cline-pilot",
+      "license": "MIT",
+      "license_source": "https://github.com/gongdear/cline-pilot/blob/main/LICENSE",
+      "tags": [
+        "coding-agent",
+        "cline",
+        "orchestration",
+        "multi-agent",
+        "memory-bank",
+        "automation"
+      ],
+      "triggers": [
+        "coding-agent",
+        "cline",
+        "orchestration",
+        "multi-agent",
+        "memory-bank",
+        "automation",
+        "pilot",
+        "proxy",
+        "cli",
+        "coding",
+        "tasks",
+        "dispatch"
+      ],
+      "path": "skills/cline-pilot/SKILL.md"
+    },
+    {
       "id": "close-automation",
       "canonical_id": "close-automation",
       "name": "close-automation",
@@ -16481,6 +16853,41 @@
         "cf"
       ],
       "path": "skills/cloudformation-best-practices/SKILL.md"
+    },
+    {
+      "id": "cloudish",
+      "canonical_id": "cloudish",
+      "name": "cloudish",
+      "description": "Deploy a Dockerfile, source folder, or existing image to Cloudish as a running container at a live URL, built server-side with no local Docker, with confirmation before spending credits.",
+      "category": "devops",
+      "risk": "critical",
+      "source": "https://github.com/cloudishai/skills",
+      "source_type": "official",
+      "source_repo": "cloudishai/skills",
+      "license": "MIT",
+      "license_source": "https://github.com/cloudishai/skills/blob/main/LICENSE",
+      "tags": [
+        "deploy",
+        "docker",
+        "containers",
+        "hosting",
+        "persistent-storage"
+      ],
+      "triggers": [
+        "deploy",
+        "docker",
+        "containers",
+        "hosting",
+        "persistent-storage",
+        "cloudish",
+        "dockerfile",
+        "source",
+        "folder",
+        "existing",
+        "image",
+        "running"
+      ],
+      "path": "skills/cloudish/SKILL.md"
     },
     {
       "id": "cmux",
@@ -19794,6 +20201,41 @@
       "path": "skills/cron-doctor/SKILL.md"
     },
     {
+      "id": "cross-chain-relayer-audit",
+      "canonical_id": "cross-chain-relayer-audit",
+      "name": "cross-chain-relayer-audit",
+      "description": "Cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "cross-chain",
+        "bridge",
+        "relayer",
+        "security",
+        "cryptography",
+        "web3",
+        "stellar"
+      ],
+      "triggers": [
+        "cross-chain",
+        "bridge",
+        "relayer",
+        "security",
+        "cryptography",
+        "web3",
+        "stellar",
+        "cross",
+        "chain",
+        "audit",
+        "register",
+        "message"
+      ],
+      "path": "skills/cross-chain-relayer-audit/SKILL.md"
+    },
+    {
       "id": "cross-platform-contract-propagation-audit",
       "canonical_id": "cross-platform-contract-propagation-audit",
       "name": "cross-platform-contract-propagation-audit",
@@ -21981,6 +22423,39 @@
       "path": "skills/deep-research/SKILL.md"
     },
     {
+      "id": "deep-research-framework",
+      "canonical_id": "deep-research-framework",
+      "name": "deep-research-framework",
+      "description": "Framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.",
+      "category": "research",
+      "risk": "safe",
+      "source": "https://github.com/alapha888/agent-skills-en",
+      "source_type": "community",
+      "source_repo": "alapha888/agent-skills-en",
+      "license": "MIT",
+      "license_source": "https://github.com/alapha888/agent-skills-en/blob/main/LICENSE",
+      "tags": [
+        "research-reports",
+        "source-verification",
+        "analysis"
+      ],
+      "triggers": [
+        "research-reports",
+        "source-verification",
+        "analysis",
+        "deep",
+        "research",
+        "framework",
+        "reports",
+        "define",
+        "question",
+        "tier",
+        "sources",
+        "first"
+      ],
+      "path": "skills/deep-research-framework/SKILL.md"
+    },
+    {
       "id": "deepapi",
       "canonical_id": "deepapi",
       "name": "deepapi",
@@ -22038,6 +22513,76 @@
         "smart"
       ],
       "path": "skills/defi-protocol-templates/SKILL.md"
+    },
+    {
+      "id": "defi-yield-strategy-allocator",
+      "canonical_id": "defi-yield-strategy-allocator",
+      "name": "defi-yield-strategy-allocator",
+      "description": "Multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "defi",
+        "yield",
+        "soroban",
+        "vault",
+        "liquidity",
+        "finance",
+        "stellar"
+      ],
+      "triggers": [
+        "defi",
+        "yield",
+        "soroban",
+        "vault",
+        "liquidity",
+        "finance",
+        "stellar",
+        "allocator",
+        "multi",
+        "automated",
+        "allocation",
+        "register"
+      ],
+      "path": "skills/defi-yield-strategy-allocator/SKILL.md"
+    },
+    {
+      "id": "define-my-content-pillars",
+      "canonical_id": "define-my-content-pillars",
+      "name": "define-my-content-pillars",
+      "description": "Find the three to five subjects someone can post about repeatedly, from what they have published and know first-hand. Use when someone asks what to post about or has run out of ideas.",
+      "category": "marketing",
+      "risk": "safe",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/define-my-content-pillars",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "twitter",
+        "content-strategy",
+        "personal-brand",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "twitter",
+        "content-strategy",
+        "personal-brand",
+        "social-media",
+        "define",
+        "my",
+        "content",
+        "pillars",
+        "find",
+        "three",
+        "five"
+      ],
+      "path": "skills/define-my-content-pillars/SKILL.md"
     },
     {
       "id": "defuddle",
@@ -26025,6 +26570,40 @@
       "path": "skills/doubt-driven-development/SKILL.md"
     },
     {
+      "id": "draft-my-comments",
+      "canonical_id": "draft-my-comments",
+      "name": "draft-my-comments",
+      "description": "Write a LinkedIn comment that adds something the post did not have, not agreement. Use when someone asks what to comment, wants to engage with creators, or says their comments go nowhere.",
+      "category": "marketing",
+      "risk": "safe",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/draft-my-comments",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "comments",
+        "engagement",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "comments",
+        "engagement",
+        "social-media",
+        "draft",
+        "my",
+        "write",
+        "comment",
+        "adds",
+        "something",
+        "post",
+        "did"
+      ],
+      "path": "skills/draft-my-comments/SKILL.md"
+    },
+    {
       "id": "drizzle-migration-conflict",
       "canonical_id": "drizzle-migration-conflict",
       "name": "drizzle-migration-conflict",
@@ -26113,6 +26692,41 @@
         "rube"
       ],
       "path": "skills/dropbox-automation/SKILL.md"
+    },
+    {
+      "id": "dropthehassle-publish",
+      "canonical_id": "dropthehassle-publish",
+      "name": "dropthehassle-publish",
+      "description": "Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.",
+      "category": "devops",
+      "risk": "critical",
+      "source": "https://github.com/bosmdavid-gif/dropthehassle-skill",
+      "source_type": "official",
+      "source_repo": "bosmdavid-gif/dropthehassle-skill",
+      "license": "MIT",
+      "license_source": "https://github.com/bosmdavid-gif/dropthehassle-skill/blob/main/LICENSE",
+      "tags": [
+        "deploy",
+        "static-site",
+        "hosting",
+        "domain",
+        "mcp"
+      ],
+      "triggers": [
+        "deploy",
+        "static-site",
+        "hosting",
+        "domain",
+        "mcp",
+        "dropthehassle",
+        "publish",
+        "finished",
+        "static",
+        "site",
+        "free",
+        "https"
+      ],
+      "path": "skills/dropthehassle-publish/SKILL.md"
     },
     {
       "id": "dsh-deepread",
@@ -27647,6 +28261,73 @@
         "covers"
       ],
       "path": "skills/ethical-hacking-methodology/SKILL.md"
+    },
+    {
+      "id": "etsy-search-listings",
+      "canonical_id": "etsy-search-listings",
+      "name": "etsy-search-listings",
+      "description": "Fetch live Etsy search listing rows for a keyword, market phrase, or category via Apify Actor publicrecords/etsy-search-scraper (MCP). Needs an Apify token; Actor run is billed.",
+      "category": "ecommerce",
+      "risk": "critical",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "etsy",
+        "ecommerce",
+        "search",
+        "listings",
+        "apify",
+        "mcp"
+      ],
+      "triggers": [
+        "etsy",
+        "ecommerce",
+        "search",
+        "listings",
+        "apify",
+        "mcp",
+        "fetch",
+        "live",
+        "listing",
+        "rows",
+        "keyword",
+        "market"
+      ],
+      "path": "skills/etsy-search-listings/SKILL.md"
+    },
+    {
+      "id": "etsy-shop-sales-history",
+      "canonical_id": "etsy-shop-sales-history",
+      "name": "etsy-shop-sales-history",
+      "description": "Read Etsy shop sales counters, deltas, and breakout flags from Apify Actor publicrecords/etsy-shop-velocity (MCP panel snapshot). Needs an Apify token; Actor run is billed.",
+      "category": "ecommerce",
+      "risk": "critical",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "etsy",
+        "ecommerce",
+        "shop",
+        "sales",
+        "velocity",
+        "apify",
+        "mcp"
+      ],
+      "triggers": [
+        "etsy",
+        "ecommerce",
+        "shop",
+        "sales",
+        "velocity",
+        "apify",
+        "mcp",
+        "history",
+        "read",
+        "counters",
+        "deltas",
+        "breakout"
+      ],
+      "path": "skills/etsy-shop-sales-history/SKILL.md"
     },
     {
       "id": "evaluation",
@@ -29768,6 +30449,39 @@
       "path": "skills/fitness-analyzer/SKILL.md"
     },
     {
+      "id": "five-axis-code-review",
+      "canonical_id": "five-axis-code-review",
+      "name": "five-axis-code-review",
+      "description": "Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.",
+      "category": "development",
+      "risk": "safe",
+      "source": "https://github.com/alapha888/agent-skills-en",
+      "source_type": "community",
+      "source_repo": "alapha888/agent-skills-en",
+      "license": "MIT",
+      "license_source": "https://github.com/alapha888/agent-skills-en/blob/main/LICENSE",
+      "tags": [
+        "code-review",
+        "code-quality",
+        "pull-requests"
+      ],
+      "triggers": [
+        "code-review",
+        "code-quality",
+        "pull-requests",
+        "five",
+        "axis",
+        "code",
+        "review",
+        "checklist",
+        "correctness",
+        "security",
+        "readability",
+        "performance"
+      ],
+      "path": "skills/five-axis-code-review/SKILL.md"
+    },
+    {
       "id": "fix-review",
       "canonical_id": "fix-review",
       "name": "fix-review",
@@ -31398,6 +32112,39 @@
       "path": "skills/full-stack-orchestration-full-stack-feature/SKILL.md"
     },
     {
+      "id": "fxmacrodata",
+      "canonical_id": "fxmacrodata",
+      "name": "fxmacrodata",
+      "description": "Query FXMacroData for official-source macro indicators, release calendars, central-bank policy rates, FX rates and CFTC positioning across 22 currencies.",
+      "category": "finance",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "macroeconomics",
+        "forex",
+        "central-banks",
+        "economic-calendar",
+        "cot",
+        "rest-api"
+      ],
+      "triggers": [
+        "macroeconomics",
+        "forex",
+        "central-banks",
+        "economic-calendar",
+        "cot",
+        "rest-api",
+        "fxmacrodata",
+        "query",
+        "official",
+        "source",
+        "macro",
+        "indicators"
+      ],
+      "path": "skills/fxmacrodata/SKILL.md"
+    },
+    {
       "id": "game-development",
       "canonical_id": "game-development",
       "name": "game-development",
@@ -32932,6 +33679,40 @@
       "path": "skills/geoffrey-hinton/SKILL.md"
     },
     {
+      "id": "get-seen-in-replies",
+      "canonical_id": "get-seen-in-replies",
+      "name": "get-seen-in-replies",
+      "description": "Write a reply to someone else's tweet that is worth reading on its own. Use when someone asks what to reply, wants to grow by replying on Twitter/X, or says their replies go nowhere.",
+      "category": "marketing",
+      "risk": "safe",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/get-seen-in-replies",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "twitter",
+        "replies",
+        "engagement",
+        "social-media"
+      ],
+      "triggers": [
+        "twitter",
+        "replies",
+        "engagement",
+        "social-media",
+        "get",
+        "seen",
+        "write",
+        "reply",
+        "someone",
+        "else",
+        "tweet",
+        "worth"
+      ],
+      "path": "skills/get-seen-in-replies/SKILL.md"
+    },
+    {
       "id": "gh-attach",
       "canonical_id": "gh-attach",
       "name": "gh-attach",
@@ -33116,6 +33897,39 @@
         "confidence"
       ],
       "path": "skills/git-advanced-workflows/SKILL.md"
+    },
+    {
+      "id": "git-commit-message",
+      "canonical_id": "git-commit-message",
+      "name": "git-commit-message",
+      "description": "Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.",
+      "category": "development",
+      "risk": "safe",
+      "source": "https://github.com/alapha888/agent-skills-en",
+      "source_type": "community",
+      "source_repo": "alapha888/agent-skills-en",
+      "license": "MIT",
+      "license_source": "https://github.com/alapha888/agent-skills-en/blob/main/LICENSE",
+      "tags": [
+        "git",
+        "commit-messages",
+        "conventional-commits"
+      ],
+      "triggers": [
+        "git",
+        "commit-messages",
+        "conventional-commits",
+        "commit",
+        "message",
+        "generates",
+        "conventional",
+        "messages",
+        "staged",
+        "changes",
+        "type",
+        "prefix"
+      ],
+      "path": "skills/git-commit-message/SKILL.md"
     },
     {
       "id": "git-hooks-automation",
@@ -38629,6 +39443,43 @@
       "path": "skills/idea-refine/SKILL.md"
     },
     {
+      "id": "idea-to-blueprint",
+      "canonical_id": "idea-to-blueprint",
+      "name": "idea-to-blueprint",
+      "description": "Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.",
+      "category": "planning",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "iniesohidham/idea-to-blueprint",
+      "license": "MIT",
+      "license_source": "https://github.com/iniesohidham/idea-to-blueprint/blob/main/LICENSE",
+      "tags": [
+        "prd",
+        "specification",
+        "product-planning",
+        "user-stories",
+        "acceptance-criteria",
+        "tech-stack",
+        "agentic-engineering"
+      ],
+      "triggers": [
+        "prd",
+        "specification",
+        "product-planning",
+        "user-stories",
+        "acceptance-criteria",
+        "tech-stack",
+        "agentic-engineering",
+        "idea",
+        "blueprint",
+        "turn",
+        "raw",
+        "product"
+      ],
+      "path": "skills/idea-to-blueprint/SKILL.md"
+    },
+    {
       "id": "identity-access-management",
       "canonical_id": "identity-access-management",
       "name": "identity-access-management",
@@ -40484,7 +41335,7 @@
       "id": "jobs-to-be-done-analyst",
       "canonical_id": "jobs-to-be-done-analyst",
       "name": "jobs-to-be-done-analyst",
-      "description": "One sentence - what this skill does and when to invoke it",
+      "description": "Uncover the functional, emotional and social jobs a customer hires a product to do: progress state, hiring trigger, alternatives, success criteria, JTBD map. Use when you need to understand why users buy, switch or churn, or to anchor positioning, messaging and onboarding in real jobs.",
       "category": "marketing",
       "risk": "safe",
       "source": "community",
@@ -40501,12 +41352,13 @@
         "be",
         "done",
         "analyst",
-        "one",
-        "sentence",
-        "what",
-        "skill",
-        "does",
-        "invoke"
+        "uncover",
+        "functional",
+        "emotional",
+        "social",
+        "customer",
+        "hires",
+        "product"
       ],
       "path": "skills/jobs-to-be-done-analyst/SKILL.md"
     },
@@ -46484,6 +47336,39 @@
       "path": "skills/meeting-distiller-pro/SKILL.md"
     },
     {
+      "id": "meeting-notes",
+      "canonical_id": "meeting-notes",
+      "name": "meeting-notes",
+      "description": "Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summary.",
+      "category": "productivity",
+      "risk": "safe",
+      "source": "https://github.com/alapha888/agent-skills-en",
+      "source_type": "community",
+      "source_repo": "alapha888/agent-skills-en",
+      "license": "MIT",
+      "license_source": "https://github.com/alapha888/agent-skills-en/blob/main/LICENSE",
+      "tags": [
+        "meetings",
+        "minutes",
+        "action-items"
+      ],
+      "triggers": [
+        "meetings",
+        "minutes",
+        "action-items",
+        "meeting",
+        "notes",
+        "turns",
+        "raw",
+        "structured",
+        "conclusion",
+        "first",
+        "then",
+        "decisions"
+      ],
+      "path": "skills/meeting-notes/SKILL.md"
+    },
+    {
       "id": "meme-coin-audit",
       "canonical_id": "meme-coin-audit",
       "name": "meme-coin-audit",
@@ -51885,7 +52770,7 @@
       "id": "onboarding-psychologist",
       "canonical_id": "onboarding-psychologist",
       "name": "onboarding-psychologist",
-      "description": "One sentence - what this skill does and when to invoke it",
+      "description": "Design first-use and onboarding experiences that bring an early win, cut setup friction, build ownership and form habits through stable cues. Use when onboarding loses users early, time-to-value is long, or the first session should build confidence, momentum and a lasting habit.",
       "category": "marketing",
       "risk": "safe",
       "source": "community",
@@ -51896,12 +52781,16 @@
       "triggers": [
         "onboarding",
         "psychologist",
-        "one",
-        "sentence",
-        "what",
-        "skill",
-        "does",
-        "invoke"
+        "first",
+        "experiences",
+        "bring",
+        "early",
+        "win",
+        "cut",
+        "setup",
+        "friction",
+        "ownership",
+        "form"
       ],
       "path": "skills/onboarding-psychologist/SKILL.md"
     },
@@ -54300,6 +55189,43 @@
         "invoke"
       ],
       "path": "skills/pitch-psychologist/SKILL.md"
+    },
+    {
+      "id": "placecall",
+      "canonical_id": "placecall",
+      "name": "placecall",
+      "description": "Place real outbound phone calls to US businesses through the PlaceCall API: book, ask, get quotes, then read the outcome and transcript.",
+      "category": "api-integration",
+      "risk": "critical",
+      "source": "https://github.com/voygr-tech/placecall",
+      "source_type": "official",
+      "source_repo": "voygr-tech/placecall",
+      "license": "MIT",
+      "license_source": "https://github.com/voygr-tech/placecall/blob/main/LICENSE",
+      "tags": [
+        "phone",
+        "calls",
+        "voice",
+        "telephony",
+        "reservations",
+        "rest-api",
+        "paid-api"
+      ],
+      "triggers": [
+        "phone",
+        "calls",
+        "voice",
+        "telephony",
+        "reservations",
+        "rest-api",
+        "paid-api",
+        "placecall",
+        "place",
+        "real",
+        "outbound",
+        "us"
+      ],
+      "path": "skills/placecall/SKILL.md"
     },
     {
       "id": "plaid-fintech",
@@ -59462,6 +60388,41 @@
       "path": "skills/reports-analytics/SKILL.md"
     },
     {
+      "id": "repurpose-into-a-post",
+      "canonical_id": "repurpose-into-a-post",
+      "name": "repurpose-into-a-post",
+      "description": "Turn an article, newsletter, transcript or video into a Twitter/X or LinkedIn post that stands on its own. Use when someone wants to repurpose, share or promote content they already made.",
+      "category": "marketing",
+      "risk": "critical",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/repurpose-into-a-post",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "twitter",
+        "repurposing",
+        "content",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "twitter",
+        "repurposing",
+        "content",
+        "social-media",
+        "repurpose",
+        "post",
+        "turn",
+        "article",
+        "newsletter",
+        "transcript",
+        "video"
+      ],
+      "path": "skills/repurpose-into-a-post/SKILL.md"
+    },
+    {
       "id": "requesting-code-review",
       "canonical_id": "requesting-code-review",
       "name": "requesting-code-review",
@@ -60872,6 +61833,41 @@
         "da"
       ],
       "path": "skills/sam-altman/SKILL.md"
+    },
+    {
+      "id": "same-idea-both-platforms",
+      "canonical_id": "same-idea-both-platforms",
+      "name": "same-idea-both-platforms",
+      "description": "Write one idea as a Twitter/X post and a LinkedIn post that read as written separately, not pasted twice. Use when someone wants to cross-post or adapt a post for the other platform.",
+      "category": "marketing",
+      "risk": "critical",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/same-idea-both-platforms",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "twitter",
+        "cross-posting",
+        "writing",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "twitter",
+        "cross-posting",
+        "writing",
+        "social-media",
+        "same",
+        "idea",
+        "both",
+        "platforms",
+        "write",
+        "one",
+        "post"
+      ],
+      "path": "skills/same-idea-both-platforms/SKILL.md"
     },
     {
       "id": "sandbase-mcp",
@@ -65145,6 +66141,74 @@
       "path": "skills/slo-implementation/SKILL.md"
     },
     {
+      "id": "smart-contract-formal-verification",
+      "canonical_id": "smart-contract-formal-verification",
+      "name": "smart-contract-formal-verification",
+      "description": "Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "formal-verification",
+        "invariants",
+        "foundry",
+        "soroban",
+        "security",
+        "math"
+      ],
+      "triggers": [
+        "formal-verification",
+        "invariants",
+        "foundry",
+        "soroban",
+        "security",
+        "math",
+        "smart",
+        "contract",
+        "formal",
+        "verification",
+        "invariant",
+        "register"
+      ],
+      "path": "skills/smart-contract-formal-verification/SKILL.md"
+    },
+    {
+      "id": "smart-contract-upgrade-governance",
+      "canonical_id": "smart-contract-upgrade-governance",
+      "name": "smart-contract-upgrade-governance",
+      "description": "Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "soroban",
+        "upgrade",
+        "governance",
+        "security",
+        "wasm",
+        "stellar"
+      ],
+      "triggers": [
+        "soroban",
+        "upgrade",
+        "governance",
+        "security",
+        "wasm",
+        "stellar",
+        "smart",
+        "contract",
+        "register",
+        "executable",
+        "bytecode",
+        "hash"
+      ],
+      "path": "skills/smart-contract-upgrade-governance/SKILL.md"
+    },
+    {
       "id": "smart-git-automation",
       "canonical_id": "smart-git-automation",
       "name": "smart-git-automation",
@@ -65639,6 +66703,181 @@
         "mozilla"
       ],
       "path": "skills/sops-encryption/SKILL.md"
+    },
+    {
+      "id": "soroban-contract-audit",
+      "canonical_id": "soroban-contract-audit",
+      "name": "soroban-contract-audit",
+      "description": "Soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "soroban",
+        "rust",
+        "smart-contracts",
+        "security",
+        "audit",
+        "web3"
+      ],
+      "triggers": [
+        "stellar",
+        "soroban",
+        "rust",
+        "smart-contracts",
+        "security",
+        "audit",
+        "web3",
+        "contract",
+        "smart",
+        "register",
+        "authorization",
+        "checks"
+      ],
+      "path": "skills/soroban-contract-audit/SKILL.md"
+    },
+    {
+      "id": "soroban-liquidity-pool",
+      "canonical_id": "soroban-liquidity-pool",
+      "name": "soroban-liquidity-pool",
+      "description": "Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "soroban",
+        "amm",
+        "liquidity",
+        "stellar",
+        "dex",
+        "defi",
+        "rust"
+      ],
+      "triggers": [
+        "soroban",
+        "amm",
+        "liquidity",
+        "stellar",
+        "dex",
+        "defi",
+        "rust",
+        "pool",
+        "automated",
+        "market",
+        "maker",
+        "register"
+      ],
+      "path": "skills/soroban-liquidity-pool/SKILL.md"
+    },
+    {
+      "id": "soroban-oracle-data-feed-audit",
+      "canonical_id": "soroban-oracle-data-feed-audit",
+      "name": "soroban-oracle-data-feed-audit",
+      "description": "DeFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "soroban",
+        "oracle",
+        "defi",
+        "pricing",
+        "stellar",
+        "security",
+        "web3"
+      ],
+      "triggers": [
+        "soroban",
+        "oracle",
+        "defi",
+        "pricing",
+        "stellar",
+        "security",
+        "web3",
+        "data",
+        "feed",
+        "audit",
+        "price",
+        "integration"
+      ],
+      "path": "skills/soroban-oracle-data-feed-audit/SKILL.md"
+    },
+    {
+      "id": "soroban-storage-ttl-lifecycle",
+      "canonical_id": "soroban-storage-ttl-lifecycle",
+      "name": "soroban-storage-ttl-lifecycle",
+      "description": "Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "soroban",
+        "storage",
+        "ttl",
+        "state-archival",
+        "stellar",
+        "gas",
+        "rust"
+      ],
+      "triggers": [
+        "soroban",
+        "storage",
+        "ttl",
+        "state-archival",
+        "stellar",
+        "gas",
+        "rust",
+        "lifecycle",
+        "ledger",
+        "state",
+        "rent",
+        "extension"
+      ],
+      "path": "skills/soroban-storage-ttl-lifecycle/SKILL.md"
+    },
+    {
+      "id": "soroban-token-minter",
+      "canonical_id": "soroban-token-minter",
+      "name": "soroban-token-minter",
+      "description": "Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "soroban",
+        "token",
+        "sep-41",
+        "defi",
+        "web3",
+        "rust"
+      ],
+      "triggers": [
+        "stellar",
+        "soroban",
+        "token",
+        "sep-41",
+        "defi",
+        "web3",
+        "rust",
+        "minter",
+        "sep",
+        "41",
+        "contract",
+        "architecture"
+      ],
+      "path": "skills/soroban-token-minter/SKILL.md"
     },
     {
       "id": "source-document-filing",
@@ -66668,6 +67907,143 @@
       "path": "skills/statsmodels/SKILL.md"
     },
     {
+      "id": "stellar-anchor-integration",
+      "canonical_id": "stellar-anchor-integration",
+      "name": "stellar-anchor-integration",
+      "description": "Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "sep-10",
+        "sep-24",
+        "anchor",
+        "on-ramp",
+        "off-ramp",
+        "fintech"
+      ],
+      "triggers": [
+        "stellar",
+        "sep-10",
+        "sep-24",
+        "anchor",
+        "on-ramp",
+        "off-ramp",
+        "fintech",
+        "integration",
+        "protocol",
+        "compliance",
+        "register",
+        "sep"
+      ],
+      "path": "skills/stellar-anchor-integration/SKILL.md"
+    },
+    {
+      "id": "stellar-asset-clawback-compliance",
+      "canonical_id": "stellar-asset-clawback-compliance",
+      "name": "stellar-asset-clawback-compliance",
+      "description": "Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "clawback",
+        "compliance",
+        "fintech",
+        "regtech",
+        "security"
+      ],
+      "triggers": [
+        "stellar",
+        "clawback",
+        "compliance",
+        "fintech",
+        "regtech",
+        "security",
+        "asset",
+        "regulated",
+        "architecture",
+        "register",
+        "issuer",
+        "authorization"
+      ],
+      "path": "skills/stellar-asset-clawback-compliance/SKILL.md"
+    },
+    {
+      "id": "stellar-escrow-timelock",
+      "canonical_id": "stellar-escrow-timelock",
+      "name": "stellar-escrow-timelock",
+      "description": "Decentralized conditional escrow and timelock contract register: multi-signature release conditions, clawback expiry, and settlement triggers.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "escrow",
+        "timelock",
+        "soroban",
+        "multisig",
+        "settlement"
+      ],
+      "triggers": [
+        "stellar",
+        "escrow",
+        "timelock",
+        "soroban",
+        "multisig",
+        "settlement",
+        "decentralized",
+        "conditional",
+        "contract",
+        "register",
+        "multi",
+        "signature"
+      ],
+      "path": "skills/stellar-escrow-timelock/SKILL.md"
+    },
+    {
+      "id": "stellar-multisig-threshold-coordinator",
+      "canonical_id": "stellar-multisig-threshold-coordinator",
+      "name": "stellar-multisig-threshold-coordinator",
+      "description": "Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "stellar",
+        "multisig",
+        "security",
+        "governance",
+        "web3",
+        "auth"
+      ],
+      "triggers": [
+        "stellar",
+        "multisig",
+        "security",
+        "governance",
+        "web3",
+        "auth",
+        "threshold",
+        "coordinator",
+        "multi",
+        "signature",
+        "signer",
+        "coordination"
+      ],
+      "path": "skills/stellar-multisig-threshold-coordinator/SKILL.md"
+    },
+    {
       "id": "steve-jobs",
       "canonical_id": "steve-jobs",
       "name": "steve-jobs",
@@ -67491,6 +68867,40 @@
         "guidelines"
       ],
       "path": "skills/super-code/typescript/SKILL.md"
+    },
+    {
+      "id": "supercov",
+      "canonical_id": "supercov",
+      "name": "supercov",
+      "description": "Measure line, branch and MC/DC coverage of a project's existing tests with the supercov CLI, then write small, focused tests for the code no test reaches.",
+      "category": "testing",
+      "risk": "critical",
+      "source": "https://github.com/supercorp-ai/supercov/tree/main/plugins/supercov/skills/supercov",
+      "source_type": "community",
+      "source_repo": "supercorp-ai/supercov",
+      "license": "MIT",
+      "license_source": "https://github.com/supercorp-ai/supercov/blob/main/LICENSE",
+      "tags": [
+        "testing",
+        "coverage",
+        "mcdc",
+        "test-generation"
+      ],
+      "triggers": [
+        "testing",
+        "coverage",
+        "mcdc",
+        "test-generation",
+        "supercov",
+        "measure",
+        "line",
+        "branch",
+        "mc",
+        "dc",
+        "existing",
+        "tests"
+      ],
+      "path": "skills/supercov/SKILL.md"
     },
     {
       "id": "superpowers-lab",
@@ -68699,6 +70109,39 @@
         "stage"
       ],
       "path": "skills/team-composition-analysis/SKILL.md"
+    },
+    {
+      "id": "tech-writing-proofread",
+      "canonical_id": "tech-writing-proofread",
+      "name": "tech-writing-proofread",
+      "description": "Proofreads English technical writing for typos, grammar, punctuation, terminology consistency, jargon, and structure; returns an itemized Original → Suggestion → Reason list without rewriting the document. Use when asked to proofread or polish a technical doc, README, or blog draft.",
+      "category": "writing",
+      "risk": "safe",
+      "source": "https://github.com/alapha888/agent-skills-en",
+      "source_type": "community",
+      "source_repo": "alapha888/agent-skills-en",
+      "license": "MIT",
+      "license_source": "https://github.com/alapha888/agent-skills-en/blob/main/LICENSE",
+      "tags": [
+        "proofreading",
+        "technical-writing",
+        "editing"
+      ],
+      "triggers": [
+        "proofreading",
+        "technical-writing",
+        "editing",
+        "tech",
+        "writing",
+        "proofread",
+        "proofreads",
+        "english",
+        "technical",
+        "typos",
+        "grammar",
+        "punctuation"
+      ],
+      "path": "skills/tech-writing-proofread/SKILL.md"
     },
     {
       "id": "technical-change-tracker",
@@ -71131,6 +72574,40 @@
         "implementing"
       ],
       "path": "skills/turborepo-caching/SKILL.md"
+    },
+    {
+      "id": "turn-this-into-a-thread",
+      "canonical_id": "turn-this-into-a-thread",
+      "name": "turn-this-into-a-thread",
+      "description": "Turn a long idea, transcript, article or draft into a Twitter/X thread where every tweet stands alone. Use when someone asks for a thread or to break long writing into tweets.",
+      "category": "marketing",
+      "risk": "critical",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/turn-this-into-a-thread",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "twitter",
+        "threads",
+        "writing",
+        "social-media"
+      ],
+      "triggers": [
+        "twitter",
+        "threads",
+        "writing",
+        "social-media",
+        "turn",
+        "thread",
+        "long",
+        "idea",
+        "transcript",
+        "article",
+        "draft",
+        "where"
+      ],
+      "path": "skills/turn-this-into-a-thread/SKILL.md"
     },
     {
       "id": "tutorial-engineer",
@@ -75045,6 +76522,40 @@
       "path": "skills/web3-audit/SKILL.md"
     },
     {
+      "id": "web3-rate-limiting-circuit-breaker",
+      "canonical_id": "web3-rate-limiting-circuit-breaker",
+      "name": "web3-rate-limiting-circuit-breaker",
+      "description": "On-chain and relayer rate-limiting circuit breaker register: throughput thresholds, emergency pause triggers, and multi-sig recovery.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "security",
+        "rate-limiting",
+        "circuit-breaker",
+        "defi",
+        "infrastructure",
+        "web3"
+      ],
+      "triggers": [
+        "security",
+        "rate-limiting",
+        "circuit-breaker",
+        "defi",
+        "infrastructure",
+        "web3",
+        "rate",
+        "limiting",
+        "circuit",
+        "breaker",
+        "chain",
+        "relayer"
+      ],
+      "path": "skills/web3-rate-limiting-circuit-breaker/SKILL.md"
+    },
+    {
       "id": "web3-testing",
       "canonical_id": "web3-testing",
       "name": "web3-testing",
@@ -75064,6 +76575,40 @@
         "foundry"
       ],
       "path": "skills/web3-testing/SKILL.md"
+    },
+    {
+      "id": "web3-transaction-relayer-pool",
+      "canonical_id": "web3-transaction-relayer-pool",
+      "name": "web3-transaction-relayer-pool",
+      "description": "Gasless transaction relayer node pool register: fee sponsorship limits, nonce synchronization, and balance replenishment alerts.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "web3",
+        "relayer",
+        "gasless",
+        "meta-transactions",
+        "stellar",
+        "infrastructure"
+      ],
+      "triggers": [
+        "web3",
+        "relayer",
+        "gasless",
+        "meta-transactions",
+        "stellar",
+        "infrastructure",
+        "transaction",
+        "pool",
+        "node",
+        "register",
+        "fee",
+        "sponsorship"
+      ],
+      "path": "skills/web3-transaction-relayer-pool/SKILL.md"
     },
     {
       "id": "webapp-testing",
@@ -75322,6 +76867,41 @@
         "sha256"
       ],
       "path": "skills/whatsapp-cloud-api/SKILL.md"
+    },
+    {
+      "id": "why-did-this-post-flop",
+      "canonical_id": "why-did-this-post-flop",
+      "name": "why-did-this-post-flop",
+      "description": "Diagnose why one Twitter/X or LinkedIn post underperformed: not seen, seen and skipped, or read and ignored. Use when someone asks why a post did badly or got no engagement.",
+      "category": "marketing",
+      "risk": "safe",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/why-did-this-post-flop",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "twitter",
+        "analytics",
+        "post-review",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "twitter",
+        "analytics",
+        "post-review",
+        "social-media",
+        "why",
+        "did",
+        "post",
+        "flop",
+        "diagnose",
+        "one",
+        "underperformed"
+      ],
+      "path": "skills/why-did-this-post-flop/SKILL.md"
     },
     {
       "id": "wifi-wireless",
@@ -76283,6 +77863,41 @@
       "path": "skills/wrike-automation/SKILL.md"
     },
     {
+      "id": "write-in-my-voice",
+      "canonical_id": "write-in-my-voice",
+      "name": "write-in-my-voice",
+      "description": "Draft a Twitter/X or LinkedIn post that sounds like the person asking, from posts they already wrote. Use when someone asks for a post or rewrite in their voice, or asks if text sounds like them.",
+      "category": "marketing",
+      "risk": "critical",
+      "source": "https://github.com/prateeks367/voicemoat-skills/tree/7623a3effbee426554e8c5df55e77f3479fd0ec0/skills/write-in-my-voice",
+      "source_type": "official",
+      "source_repo": "prateeks367/voicemoat-skills",
+      "license": "MIT",
+      "license_source": "https://github.com/prateeks367/voicemoat-skills/blob/7623a3effbee426554e8c5df55e77f3479fd0ec0/LICENSE",
+      "tags": [
+        "linkedin",
+        "twitter",
+        "writing",
+        "voice",
+        "social-media"
+      ],
+      "triggers": [
+        "linkedin",
+        "twitter",
+        "writing",
+        "voice",
+        "social-media",
+        "write",
+        "my",
+        "draft",
+        "post",
+        "sounds",
+        "like",
+        "person"
+      ],
+      "path": "skills/write-in-my-voice/SKILL.md"
+    },
+    {
       "id": "writing-great-skills",
       "canonical_id": "writing-great-skills",
       "name": "writing-great-skills",
@@ -77214,6 +78829,41 @@
         "inspection"
       ],
       "path": "skills/zipai-optimizer/SKILL.md"
+    },
+    {
+      "id": "zk-proof-verification-pipeline",
+      "canonical_id": "zk-proof-verification-pipeline",
+      "name": "zk-proof-verification-pipeline",
+      "description": "Zero-knowledge cryptographic verification pipeline register: proving system, circuit verification keys, public inputs, and gas costs.",
+      "category": "engineering",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "source_repo": "Ranjeet2063/agentic-awesome-skills",
+      "tags": [
+        "zk",
+        "zero-knowledge",
+        "snark",
+        "cryptography",
+        "privacy",
+        "soroban",
+        "web3"
+      ],
+      "triggers": [
+        "zk",
+        "zero-knowledge",
+        "snark",
+        "cryptography",
+        "privacy",
+        "soroban",
+        "web3",
+        "proof",
+        "verification",
+        "pipeline",
+        "zero",
+        "knowledge"
+      ],
+      "path": "skills/zk-proof-verification-pipeline/SKILL.md"
     },
     {
       "id": "zod-validation-expert",
